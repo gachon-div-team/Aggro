@@ -14,9 +14,9 @@ document.addEventListener("DOMContentLoaded", function() {
             link: "PSH.html"
         },
         {
-            image: "img/fps.webp",
+            image: "img/smb.png",
             title: "플랫포머 게임",
-            content: "Contents of Topic 3",
+            content: "달리고, 점프하고, 공격하세요! 이 모든건 플랫폼 위에서 이루어집니다. 당신의 취향에 맞는 다양한 액션을 원하나요? 유명하지 않은, 숨은 갓겜을 찾고싶나요? 그렇다면 지금 당장 이미지를 클릭하세요!",
             link: "flatformer.html"
         },
     ];
