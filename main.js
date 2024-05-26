@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function() {
         {
             image: "https://img.freepik.com/premium-photo/back-view-gamer-playing-video-games-futuristic-interior_168310-197.jpg",
             title: "리얼리즘 게임",
-            content: "사실적으로\n묘사한\n생동감\n넘치는\n두 게임을\n 소개합니다.\n\n\n\n\n\n\n\n 리뷰로 이동하려면 이미지를 클릭하세요.",
+            content: "즐겨하던 FPS게임이나 생존 게임이 지루하신가요? 혹은 하드코어를 즐기는 유저인가요? 사실적으로 묘사한 생동감 넘치는 두 게임을 소개합니다. 리뷰로 이동하려면 왼쪽 이미지를 클릭하세요.",
             link: "PSH.html"
         },
         {
