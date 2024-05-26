@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function() {
         {
             image: "https://img.freepik.com/premium-photo/back-view-gamer-playing-video-games-futuristic-interior_168310-197.jpg",
             title: "리얼리즘 게임",
-            content: "사실적으로 묘사한 생동감 넘치는 게임 두 개를 소개합니다.",
+            content: "사실적으로 묘사한 생동감 넘치는 두 게임을 소개합니다.",
             link: "PSH.html"
         },
         {
