@@ -9,90 +9,42 @@ document.addEventListener("DOMContentLoaded", function() {
         },
         {
             image: "img/fps.webp",
-            title: "topic2",
+            title: "리얼리즘 게임",
             content: "Contents of Topic 2",
-            link: "https://www.naver.com"
+            link: "202434610.html"
         },
         {
             image: "img/fps.webp",
-            title: "topic3",
+            title: "플랫포머 게임",
             content: "Contents of Topic 3",
-            link: "https://www.naver.com"
+            link: "flatformer.html"
         },
-        {
-            image: "img/fps.webp",
-            title: "coming soon",
-            content: "coming soon",
-            link: "notyet.html"
-        },
-        {
-            image: "img/fps.webp",
-            title: "coming soon",
-            content: "coming soon",
-            link: "notyet.html"
-        },
-        {
-            image: "img/fps.webp",
-            title: "coming soon",
-            content: "coming soon",
-            link: "notyet.html"
-        },
-        {
-            image: "img/fps.webp",
-            title: "coming soon",
-            content: "coming soon",
-            link: "notyet.html"
-        },
-        {
-            image: "img/fps.webp",
-            title: "coming soon",
-            content: "coming soon",
-            link: "notyet.html"
-        },
-        {
-            image: "img/fps.webp",
-            title: "coming soon",
-            content: "coming soon",
-            link: "notyet.html"
-        },
-        {
-            image: "img/fps.webp",
-            title: "coming soon",
-            content: "coming soon",
-            link: "notyet.html"
-        }
-        // 추가적인 토픽 정보들을 추가할 수 있습니다.
     ];
 
-    var currentTopicIndex = 0; // 현재 토픽 인덱스
+    var currentTopicIndex = 0;
 
-    // 초기 토픽 설정
     setTopic(currentTopicIndex);
 
-    // 다음 버튼 클릭 시
     document.querySelector(".next_btn").addEventListener("click", function() {
         currentTopicIndex++;
         if (currentTopicIndex >= topics.length) {
-            currentTopicIndex = 0; // 마지막 토픽에 도달하면 처음으로 돌아감
+            currentTopicIndex = 0;
         }
         setTopic(currentTopicIndex);
     });
 
-    // 이전 버튼 클릭 시
     document.querySelector(".prev_btn").addEventListener("click", function() {
         currentTopicIndex--;
         if (currentTopicIndex < 0) {
-            currentTopicIndex = topics.length - 1; // 첫 번째 토픽에서 이전으로 가면 마지막 토픽으로 이동
+            currentTopicIndex = topics.length - 1;
         }
         setTopic(currentTopicIndex);
     });
 
-    // 토픽 이미지를 클릭 시 링크로 이동
     document.getElementById("topic_img").addEventListener("click", function() {
         window.location.href = topics[currentTopicIndex].link;
     });
 
-    // 토픽을 설정하는 함수
     function setTopic(index) {
         var topic = topics[index];
         document.getElementById("topic_img").src = topic.image;
