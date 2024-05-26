@@ -8,10 +8,10 @@ document.addEventListener("DOMContentLoaded", function() {
             link: "topic1.html"
         },
         {
-            image: "img/fps.webp",
+            image: "https://img.freepik.com/premium-photo/back-view-gamer-playing-video-games-futuristic-interior_168310-197.jpg",
             title: "리얼리즘 게임",
-            content: "Contents of Topic 2",
-            link: "202434610.html"
+            content: "사실적으로 묘사한 생동감 넘치는 게임 두 개를 소개합니다.",
+            link: "PSH.html"
         },
         {
             image: "img/fps.webp",
